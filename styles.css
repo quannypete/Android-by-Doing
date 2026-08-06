@@ -201,3 +201,5 @@ footer a { color:var(--text); font-weight:700; text-decoration:none; }
 
 /* Curriculum visual previews and lesson pages */
 .exercise-card{padding:0;overflow:hidden;min-height:285px}.exercise-card-body{display:flex;flex:1;flex-direction:column;padding:21px}.exercise-card-body h3{margin:18px 0 8px;font-size:1.35rem}.exercise-card-body>p{color:var(--muted);margin:0 0 20px}.open-exercise{text-decoration:none}.lesson-hero h1{font-size:clamp(3rem,6vw,6rem)}.lesson-concepts{margin-top:28px}.lesson-complete{display:inline-flex;align-items:center;gap:10px;padding:16px 22px;border-radius:999px;background:var(--text);color:var(--bg);font-weight:700}.lesson-complete input{width:20px;height:20px;accent-color:var(--accent)}.lesson-detail .brief-card:nth-child(3){overflow:hidden}.lesson-detail .resource-link{margin-bottom:10px}@media(max-width:650px){.exercise-card{min-height:auto}}
+
+.visual-label{font:700 12px/1.2 JetBrains Mono,monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 12px}.challenge-visual img{display:block;width:100%;max-height:680px;object-fit:contain}
