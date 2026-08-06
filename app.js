@@ -170,9 +170,6 @@ function renderExercises() {
   });
   els.grid.innerHTML = filtered.map(ex => `
     <article class="exercise-card ${progress.has(ex.id) ? "completed" : ""}" data-id="${ex.id}">
-      <a class="exercise-preview" href="lesson.html?id=${ex.id}" aria-label="Open ${ex.title} lesson">
-        <img src="assets/lessons/${String(ex.id).padStart(3,"0")}.svg" alt="Preview of the ${ex.title} exercise" loading="lazy">
-      </a>
       <div class="exercise-card-body">
         <div class="card-top"><span class="lesson-number">${String(ex.id).padStart(3,"0")}</span><span class="level-pill">${levels[ex.level].name}</span></div>
         <h3>${ex.title}</h3><p>${ex.summary}</p>
